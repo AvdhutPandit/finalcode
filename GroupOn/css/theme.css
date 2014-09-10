@@ -1,0 +1,105 @@
+.col-xxs1-15,
+.col-xxs2-15,
+.col-xxs3-15,
+.col-xxs4-15{
+	position:relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
+}
+@media(min-width: 288px){
+	.col-xxs-151{
+		width: 100%;
+		float:left;
+	}
+}
+
+@media(min-width: 350px){
+	.col-xxs2-15{
+		width: 50%;
+		float:left;
+	}
+}
+
+
+@media(min-width: 900px){
+	.col-xxs3-15{
+		width: 33%;
+		float:left;
+	}
+}
+
+@media(min-width: 1300px){
+	.col-xxs4-15{
+		width: 25%;
+		float:left;
+	}
+}
+#logo 
+{
+	font-family: sans-serif;
+	color: green;
+	font-weight: bold;
+	text-align: left;
+	font-size: 40px;
+}
+
+#logo a:HOVER
+{
+	color:yellow;
+	border-bottom: 2px yellow; 
+}
+
+#btn
+{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#btn1
+{
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+#textbox
+{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#logodiv
+{
+	padding-top: 40px;
+}
+body
+{
+margin-top:120px
+}
+
+
+#FontSize
+html {
+    font-size: 20px;
+}
+.unbehaved-element {
+    font-size: 2em;
+}
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
+  .unbehaved-element {
+    font-size: 1.9em; /* Fine tune unbehaved elements */
+  }
+}
+@media(max-width: 980px) {
+  html {
+    font-size: 16px;
+  }
+}
